@@ -11,7 +11,7 @@ namespace
         EnvioServicioPostal servicioPostal;
 
         // Act - ejecute la operación
-        int actual = servicioPostal.Calcular(3, 3, 1);
+        int actual = servicioPostal.calcular(3, 3, 1);
         int esperada = 0.0120;
 
         // Assert - valide los resultados
@@ -26,7 +26,7 @@ namespace
         EnvioServicioPostal servicioPostal;
 
         // Act - ejecute la operación
-        int actual = servicioPostal.Calcular(3, 6, 1);
+        int actual = servicioPostal.calcular(3, 6, 1);
         int esperada = 0.0120;
 
         // Assert - valide los resultados
@@ -41,7 +41,7 @@ namespace
         EnvioServicioPostal servicioPostal;
 
         // Act - ejecute la operación
-        int actual = servicioPostal.Calcular(3, 9, 1);
+        int actual = servicioPostal.calcular(3, 9, 1);
         int esperada = 0.0120;
 
         // Assert - valide los resultados

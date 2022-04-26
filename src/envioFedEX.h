@@ -3,7 +3,8 @@
 
 #include "envio.h"
 
-class envioFedEx : public envio {
+class envioFedEx : public envio 
+{
 
 };
 
