@@ -8,7 +8,7 @@ namespace
         /// AAA
 
         // Arrange - configurar el escenario
-        EnvioServicioPostal servicioPostal;
+        envioServicioPostal servicioPostal;
 
         // Act - ejecute la operación
         int actual = servicioPostal.calcular(2, 3, 1);
@@ -23,7 +23,7 @@ namespace
         /// AAA
 
         // Arrange - configurar el escenario
-        EnvioServicioPostal servicioPostal;
+        envioServicioPostal servicioPostal;
 
         // Act - ejecute la operación
         int actual = servicioPostal.calcular(2, 6, 1);
@@ -38,7 +38,7 @@ namespace
         /// AAA
 
         // Arrange - configurar el escenario
-        EnvioServicioPostal servicioPostal;
+        envioServicioPostal servicioPostal;
 
         // Act - ejecute la operación
         int actual = servicioPostal.calcular(2, 9, 1);
