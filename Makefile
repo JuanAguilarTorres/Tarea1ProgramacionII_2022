@@ -6,7 +6,7 @@ all:
 	g++ $(FLAGS) src/envio.cpp -o bin/envio.o
 	g++ $(FLAGS) src/envioServicioPostal.cpp -o bin/envioServicioPostal.o
 	g++ $(FLAGS) src/envioFedEX.cpp -o bin/envioFedEX.o
-	g++ -g -o bin/main.o bin/envio.o bin/envioServicioPostal.o bin/envioFedEX.o
+	g++ -g -o bin/envio.o bin/envioServicioPostal.o bin/envioFedEX.o bin/main.o
 
 test:
 	mkdir -p bin
