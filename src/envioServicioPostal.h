@@ -5,7 +5,6 @@
 
 class envioServicioPostal : public envio
 {
-
     public:
     double calcular(int clase, int peso, int distancia);
 };

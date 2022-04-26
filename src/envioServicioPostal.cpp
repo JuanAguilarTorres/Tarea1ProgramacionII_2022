@@ -3,7 +3,6 @@
 envioServicioPostal::envioServicioPostal()
 {
 
-
 }
 
 
@@ -37,11 +36,45 @@ double envioServicioPostal::calcular(int clase, int peso, int distancia)
     }
     else if (4<=peso<=8)
     {
-        /* code */
+        switch (clase)
+        {
+        case 1:
+            return (0.450 * distancia);
+            break;
+        
+        case 2:
+            return (0.0530 * distancia);
+            break;
+
+        case 3:
+            return (0.0120 * distancia);
+            break;
+        
+        default:
+            return 0.0;
+            break;
+        }
     }
     else if (9<=peso)
     {
-        /* code */
+        switch (clase)
+        {
+        case 1:
+            return (0.600 * distancia);
+            break;
+        
+        case 2:
+            return (0.0750 * distancia);
+            break;
+
+        case 3:
+            return (0.0120 * distancia);
+            break;
+        
+        default:
+            return 0.0;
+            break;
+        }
     }
     
     
