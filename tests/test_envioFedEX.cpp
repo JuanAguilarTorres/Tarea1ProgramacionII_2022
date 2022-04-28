@@ -8,7 +8,7 @@ namespace
         /// AAA
 
         // Arrange - configurar el escenario
-        EnvioFedEX fedEx;
+        envioFedEX fedEx;
 
         // Act - ejecute la operación
         int actual = fedEx.calcular(100, 5);
@@ -23,7 +23,7 @@ namespace
         /// AAA
 
         // Arrange - configurar el escenario
-        EnvioFedEX fedEx;
+        envioFedEX fedEx;
 
         // Act - ejecute la operación
         int actual = fedEx.calcular(600, 5);
@@ -38,7 +38,7 @@ namespace
         /// AAA
 
         // Arrange - configurar el escenario
-        EnvioFedEX fedEx;
+        envioFedEX fedEx;
 
         // Act - ejecute la operación
         int actual = fedEx.calcular(100, 15);
@@ -53,7 +53,7 @@ namespace
         /// AAA
 
         // Arrange - configurar el escenario
-        EnvioFedEX fedEx;
+        envioFedEX fedEx;
 
         // Act - ejecute la operación
         int actual = fedEx.calcular(600, 15);
