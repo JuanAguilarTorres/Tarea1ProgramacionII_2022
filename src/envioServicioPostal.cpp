@@ -1,10 +1,5 @@
 #include "envioServicioPostal.h"
 
-envioServicioPostal::envioServicioPostal()
-{
-
-}
-
 
 double envioServicioPostal::calcular(int clase, int peso, int distancia)
 {
