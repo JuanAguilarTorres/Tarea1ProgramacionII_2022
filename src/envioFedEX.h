@@ -8,6 +8,7 @@ class envioFedEX : public envio
     double costoBase;
  
     public:
+    envioFedEX();
     virtual double calcular(int peso, int distancia);
 };
 

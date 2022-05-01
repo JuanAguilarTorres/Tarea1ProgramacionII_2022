@@ -10,6 +10,7 @@ class envioServicioPostalSegunda : public envio
     double tarifaAlta;
 
     public:
+    envioServicioPostalSegunda();
     virtual double calcular(int peso, int distancia);
 };
 
