@@ -8,7 +8,7 @@
             "name": "g++ - Debug program",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/bin/TAREA1PROGRAMACIONII_2022",
+            "program": "${workspaceFolder}/bin/enviosTipos",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",

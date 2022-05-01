@@ -8,7 +8,7 @@ all:
 	g++ $(FLAGS) src/envioServicioPostalSegunda.cpp -o bin/envioServicioPostalSegunda.o
 	g++ $(FLAGS) src/envioServicioPostalTercera.cpp -o bin/envioServicioPostalTercera.o
 	g++ $(FLAGS) src/envioFedEX.cpp -o bin/envioFedEX.o
-	g++ -g -o bin/envio.o bin/envioServicioPostalPrimera.o bin/envioServicioPostalSegunda.o bin/envioServicioPostalTercera.o bin/envioFedEX.o bin/main.o
+	g++ -g -o bin/enviosTipos bin/envio.o bin/envioServicioPostalPrimera.o bin/envioServicioPostalSegunda.o bin/envioServicioPostalTercera.o bin/envioFedEX.o bin/main.o
 
 test:
 	mkdir -p bin
