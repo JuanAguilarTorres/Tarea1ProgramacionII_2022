@@ -1,9 +1,9 @@
-#ifndef ENVIOSERVICIOPOSTAL_H
-#define ENVIOSERVICIOPOSTAL_H
+#ifndef ENVIOSERVICIOPOSTALSEGUNDA_H
+#define ENVIOSERVICIOPOSTALSEGUNDA_H
 
 #include "envio.h"
 
-class envioServicioPostal : public envio
+class envioServicioPostalSegunda : public envio
 {
     double tarifaBaja;
     double tarifaMedia;

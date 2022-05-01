@@ -1,13 +1,13 @@
-#include "envioServicioPostal.h"
+#include "envioServicioPostalTercera.h"
 
-envioServicioPostal::envioServicioPostal()
+envioServicioPostalTercera::envioServicioPostalTercera()
 {
     this->tarifaBaja = 0.0120;
     this->tarifaMedia = 0.0120;
     this->tarifaAlta = 0.0120;
 }
 
-double envioServicioPostal::calcular(int peso, int distancia)
+double envioServicioPostalTercera::calcular(int peso, int distancia)
 {
     if (distancia == 0)
     {
