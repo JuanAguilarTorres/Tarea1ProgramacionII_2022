@@ -11,7 +11,7 @@ namespace
         envioFedEX fedEx;
 
         // Act - ejecute la operación
-        int actual = fedEx.calcular(100, 5);
+        int actual = fedEx.calcular(5, 100);
         int esperada = 35.00;
 
         // Assert - valide los resultados
@@ -26,7 +26,7 @@ namespace
         envioFedEX fedEx;
 
         // Act - ejecute la operación
-        int actual = fedEx.calcular(600, 5);
+        int actual = fedEx.calcular(5, 600);
         int esperada = 50.00;
 
         // Assert - valide los resultados
@@ -41,7 +41,7 @@ namespace
         envioFedEX fedEx;
 
         // Act - ejecute la operación
-        int actual = fedEx.calcular(100, 15);
+        int actual = fedEx.calcular(15, 100);
         int esperada = 45.00;
 
         // Assert - valide los resultados
@@ -56,7 +56,7 @@ namespace
         envioFedEX fedEx;
 
         // Act - ejecute la operación
-        int actual = fedEx.calcular(600, 15);
+        int actual = fedEx.calcular(15, 600);
         int esperada = 60.00;
 
         // Assert - valide los resultados
