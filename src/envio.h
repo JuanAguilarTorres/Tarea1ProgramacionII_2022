@@ -3,13 +3,12 @@
 
 class envio 
 {
-
     // Privado
 
     protected:
 
     public:
-    virtual ~envio();
+    virtual double calcular(int peso, int distancia) = 0;
 };
 
 #endif
