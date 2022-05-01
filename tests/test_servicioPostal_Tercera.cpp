@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "../src/envioServicioPostal.h"
+#include "../src/envioServicioPostalTercera.h"
 
 namespace
 {
@@ -8,10 +8,10 @@ namespace
         /// AAA
 
         // Arrange - configurar el escenario
-        envioServicioPostal servicioPostal;
+        envioServicioPostalTercera servicioPostal;
 
         // Act - ejecute la operación
-        int actual = servicioPostal.calcular(3, 3, 1);
+        int actual = servicioPostal.calcular(3, 1);
         int esperada = 0.0120;
 
         // Assert - valide los resultados
@@ -23,10 +23,10 @@ namespace
         /// AAA
 
         // Arrange - configurar el escenario
-        envioServicioPostal servicioPostal;
+        envioServicioPostalTercera servicioPostal;
 
         // Act - ejecute la operación
-        int actual = servicioPostal.calcular(3, 6, 1);
+        int actual = servicioPostal.calcular(6, 1);
         int esperada = 0.0120;
 
         // Assert - valide los resultados
@@ -38,10 +38,10 @@ namespace
         /// AAA
 
         // Arrange - configurar el escenario
-        envioServicioPostal servicioPostal;
+        envioServicioPostalTercera servicioPostal;
 
         // Act - ejecute la operación
-        int actual = servicioPostal.calcular(3, 9, 1);
+        int actual = servicioPostal.calcular(9, 1);
         int esperada = 0.0120;
 
         // Assert - valide los resultados
