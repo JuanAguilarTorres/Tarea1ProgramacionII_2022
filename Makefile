@@ -18,7 +18,7 @@ test:
 	g++ $(FLAGS) src/envio.cpp -o bin/envio.o
 	g++ $(FLAGS) src/envioServicioPostal.cpp -o bin/envioServicioPostal.o
 	g++ $(FLAGS) src/envioFedEX.cpp -o bin/envioFedEX.o
-	g++ -g -o bin/tests -lgtest -lgtest_main -lpthread bin/test_envioFedEX.o bin/test_servicioPostal_Primera.o bin/test_servicioPostal_Segunda.o bin/test_servicioPostal_Tercera.o bin/main.o bin/envio.o bin/envioServicioPostal.o bin/envioFedEX.o 
+	g++ -g -o bin/tests bin/test_envioFedEX.o bin/test_servicioPostal_Primera.o bin/test_servicioPostal_Segunda.o bin/test_servicioPostal_Tercera.o bin/main.o bin/envio.o bin/envioServicioPostal.o bin/envioFedEX.o -lgtest -lgtest_main -lpthread
 
 
 clean:
