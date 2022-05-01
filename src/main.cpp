@@ -26,7 +26,7 @@ int main()
 
     for(envio* envio: arregloEnvios)
     {
-        totalMontoEnvios += envio->calcular();
+        totalMontoEnvios += envio->calcular(5, 100);
     }
 
     std::cout << "El monto total de los envíos es de " << totalMontoEnvios << std::endl;

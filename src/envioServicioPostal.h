@@ -5,8 +5,13 @@
 
 class envioServicioPostal : public envio
 {
+    protected:
+    double tarifaBaja;
+    double tarifaMedia;
+    double tarifaAlta;
+
     public:
-    virtual double calcular(int clase, int peso, int distancia);
+    virtual double calcular(int peso, int distancia);
 };
 
 #endif
