@@ -1,6 +1,6 @@
 #include "envioFedEX.h"
 
-double envioFedEX::calcular(int peso, int distancia)
+double envioFedEX::calcular(int distancia, int peso)
 {
     this->costo = 35.00;
     if (distancia>500)
