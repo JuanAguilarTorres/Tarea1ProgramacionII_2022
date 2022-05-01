@@ -2,9 +2,9 @@
 
 envioServicioPostal::envioServicioPostal()
 {
-    this->tarifaBaja;
-    this->tarifaMedia;
-    this->tarifaAlta;
+    this->tarifaBaja = 0.0280;
+    this->tarifaMedia = 0.0530;
+    this->tarifaAlta = 0.0750;
 }
 
 double envioServicioPostal::calcular(int peso, int distancia)
