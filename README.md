@@ -2,9 +2,13 @@
 Estudiante: Juan Carlos Aguilar Torres
 
 Para compilar este programa, ejecute esta instrucción:
-
 make
 
 Para ejecutar, corra esta instrucción:
-
 ./bin/enviosTipos
+
+Para compilar los tests:
+make test
+
+Para ejecutar los tests:
+./bin/tests
