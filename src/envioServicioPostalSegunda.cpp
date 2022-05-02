@@ -5,7 +5,6 @@ envioServicioPostalSegunda::envioServicioPostalSegunda(int peso, int distancia)
     this->peso = peso;
     this->distancia = distancia;
 
-
     this->tarifaBaja = 0.0280;
     this->tarifaMedia = 0.0530;
     this->tarifaAlta = 0.0750;
@@ -22,7 +21,7 @@ double envioServicioPostalSegunda::calcular()
     {
         return this->tarifaBaja * this->distancia;
     }
-    else if (4<= this->peso <=8)
+    else if ((4<= this->peso) && (this->peso <=8))
     {
         return this->tarifaMedia * this->distancia;
     }
@@ -31,5 +30,5 @@ double envioServicioPostalSegunda::calcular()
         return this->tarifaAlta * this->distancia;
     }
     
-    
+    return 0.0;
 }

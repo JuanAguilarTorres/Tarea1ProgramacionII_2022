@@ -21,7 +21,7 @@ double envioServicioPostalTercera::calcular()
     {
         return this->tarifaBaja*distancia;
     }
-    else if (4<= this->peso <=8)
+    else if ((4<= this->peso) && (this->peso <=8))
     {
         return this->tarifaMedia*distancia;
     }
@@ -30,5 +30,5 @@ double envioServicioPostalTercera::calcular()
         return this->tarifaAlta*distancia;
     }
     
-    
+    return 0.0;
 }
