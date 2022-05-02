@@ -8,10 +8,10 @@ namespace
         /// AAA
 
         // Arrange - configurar el escenario
-        envioFedEX fedEx;
+        envioFedEX fedEx(5, 100);
 
         // Act - ejecute la operación
-        int actual = fedEx.calcular(5, 100);
+        int actual = fedEx.calcular();
         int esperada = 35.00;
 
         // Assert - valide los resultados
@@ -23,10 +23,10 @@ namespace
         /// AAA
 
         // Arrange - configurar el escenario
-        envioFedEX fedEx;
+        envioFedEX fedEx(5, 600);
 
         // Act - ejecute la operación
-        int actual = fedEx.calcular(5, 600);
+        int actual = fedEx.calcular();
         int esperada = 50.00;
 
         // Assert - valide los resultados
@@ -38,10 +38,10 @@ namespace
         /// AAA
 
         // Arrange - configurar el escenario
-        envioFedEX fedEx;
+        envioFedEX fedEx(15, 100);
 
         // Act - ejecute la operación
-        int actual = fedEx.calcular(15, 100);
+        int actual = fedEx.calcular();
         int esperada = 45.00;
 
         // Assert - valide los resultados
@@ -53,10 +53,10 @@ namespace
         /// AAA
 
         // Arrange - configurar el escenario
-        envioFedEX fedEx;
+        envioFedEX fedEx(15, 600);
 
         // Act - ejecute la operación
-        int actual = fedEx.calcular(15, 600);
+        int actual = fedEx.calcular();
         int esperada = 60.00;
 
         // Assert - valide los resultados

@@ -8,10 +8,10 @@ namespace
         /// AAA
 
         // Arrange - configurar el escenario
-        envioServicioPostalTercera servicioPostal;
+        envioServicioPostalTercera servicioPostal(3, 1);
 
         // Act - ejecute la operación
-        int actual = servicioPostal.calcular(3, 1);
+        int actual = servicioPostal.calcular();
         int esperada = 0.0120;
 
         // Assert - valide los resultados
@@ -23,10 +23,10 @@ namespace
         /// AAA
 
         // Arrange - configurar el escenario
-        envioServicioPostalTercera servicioPostal;
+        envioServicioPostalTercera servicioPostal(6, 1);
 
         // Act - ejecute la operación
-        int actual = servicioPostal.calcular(6, 1);
+        int actual = servicioPostal.calcular();
         int esperada = 0.0120;
 
         // Assert - valide los resultados
@@ -38,10 +38,10 @@ namespace
         /// AAA
 
         // Arrange - configurar el escenario
-        envioServicioPostalTercera servicioPostal;
+        envioServicioPostalTercera servicioPostal(9, 1);
 
         // Act - ejecute la operación
-        int actual = servicioPostal.calcular(9, 1);
+        int actual = servicioPostal.calcular();
         int esperada = 0.0120;
 
         // Assert - valide los resultados
