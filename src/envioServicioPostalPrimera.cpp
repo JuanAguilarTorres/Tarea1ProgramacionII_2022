@@ -16,15 +16,15 @@ double envioServicioPostalPrimera::calcular(int peso, int distancia)
 
     if (peso<=3)
     {
-        return tarifaBaja*distancia;
+        return this->tarifaBaja*distancia;
     }
     else if (4<=peso<=8)
     {
-        return tarifaMedia*distancia;
+        return this->tarifaMedia*distancia;
     }
     else if (9<=peso)
     {
-        return tarifaAlta*distancia;
+        return this->tarifaAlta*distancia;
     }
     
     
