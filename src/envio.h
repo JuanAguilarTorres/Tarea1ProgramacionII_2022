@@ -8,7 +8,7 @@ class envio
     protected:
 
     public:
-    virtual double calcular(int peso, int distancia) = 0;
+    virtual double calcular() = 0;
 };
 
 #endif

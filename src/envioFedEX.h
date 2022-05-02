@@ -5,11 +5,14 @@
 
 class envioFedEX : public envio 
 {
+    int peso;
+    int distancia;
+    
     double costoBase;
  
     public:
-    envioFedEX();
-    virtual double calcular(int peso, int distancia);
+    envioFedEX(int peso, int distancia);
+    virtual double calcular();
 };
 
 #endif

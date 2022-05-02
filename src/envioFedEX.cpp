@@ -1,11 +1,14 @@
 #include "envioFedEX.h"
 
-envioFedEX::envioFedEX()
+envioFedEX::envioFedEX(int peso, int distancia)
 {
+    this->peso = peso;
+    this->distancia = distancia;
+
     this->costoBase = 35.00;
 }
 
-double envioFedEX::calcular(int peso, int distancia)
+double envioFedEX::calcular()
 {
     if (distancia>500)
     {
