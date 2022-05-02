@@ -11,8 +11,8 @@ namespace
         envioFedEX fedEx(5, 100);
 
         // Act - ejecute la operación
-        int actual = fedEx.calcular();
-        int esperada = 35.00;
+        double actual = fedEx.calcular();
+        double esperada = 35.00;
 
         // Assert - valide los resultados
         EXPECT_EQ(esperada, actual);
@@ -26,8 +26,8 @@ namespace
         envioFedEX fedEx(5, 600);
 
         // Act - ejecute la operación
-        int actual = fedEx.calcular();
-        int esperada = 50.00;
+        double actual = fedEx.calcular();
+        double esperada = 50.00;
 
         // Assert - valide los resultados
         EXPECT_EQ(esperada, actual);
@@ -41,8 +41,8 @@ namespace
         envioFedEX fedEx(15, 100);
 
         // Act - ejecute la operación
-        int actual = fedEx.calcular();
-        int esperada = 45.00;
+        double actual = fedEx.calcular();
+        double esperada = 45.00;
 
         // Assert - valide los resultados
         EXPECT_EQ(esperada, actual);
@@ -56,8 +56,8 @@ namespace
         envioFedEX fedEx(15, 600);
 
         // Act - ejecute la operación
-        int actual = fedEx.calcular();
-        int esperada = 60.00;
+        double actual = fedEx.calcular();
+        double esperada = 60.00;
 
         // Assert - valide los resultados
         EXPECT_EQ(esperada, actual);

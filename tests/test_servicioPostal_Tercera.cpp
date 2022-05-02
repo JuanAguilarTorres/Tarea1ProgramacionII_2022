@@ -11,8 +11,8 @@ namespace
         envioServicioPostalTercera servicioPostal(3, 1);
 
         // Act - ejecute la operación
-        int actual = servicioPostal.calcular();
-        int esperada = 0.0120;
+        double actual = servicioPostal.calcular();
+        double esperada = 0.0120;
 
         // Assert - valide los resultados
         EXPECT_EQ(esperada, actual);
@@ -26,8 +26,8 @@ namespace
         envioServicioPostalTercera servicioPostal(6, 1);
 
         // Act - ejecute la operación
-        int actual = servicioPostal.calcular();
-        int esperada = 0.0120;
+        double actual = servicioPostal.calcular();
+        double esperada = 0.0120;
 
         // Assert - valide los resultados
         EXPECT_EQ(esperada, actual);
@@ -41,8 +41,8 @@ namespace
         envioServicioPostalTercera servicioPostal(9, 1);
 
         // Act - ejecute la operación
-        int actual = servicioPostal.calcular();
-        int esperada = 0.0120;
+        double actual = servicioPostal.calcular();
+        double esperada = 0.0120;
 
         // Assert - valide los resultados
         EXPECT_EQ(esperada, actual);
