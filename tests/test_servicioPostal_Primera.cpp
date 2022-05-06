@@ -15,7 +15,7 @@ namespace
         double esperada = 0.300;
 
         // Assert - valide los resultados
-        EXPECT_EQ(esperada, actual);
+        EXPECT_DOUBLE_EQ(esperada, actual);
     }
 
     TEST(Test_servicioPostal_Primera, Test_medioPeso)
@@ -30,7 +30,7 @@ namespace
         double esperada = 0.450;
 
         // Assert - valide los resultados
-        EXPECT_EQ(esperada, actual);
+        EXPECT_DOUBLE_EQ(esperada, actual);
     }
 
     TEST(Test_servicioPostal_Primera, Test_muchoPeso)
@@ -45,6 +45,6 @@ namespace
         double esperada = 0.600;
 
         // Assert - valide los resultados
-        EXPECT_EQ(esperada, actual);
+        EXPECT_DOUBLE_EQ(esperada, actual);
     }
 }

@@ -15,7 +15,7 @@ namespace
         double esperada = 35.00;
 
         // Assert - valide los resultados
-        EXPECT_EQ(esperada, actual);
+        EXPECT_DOUBLE_EQ(esperada, actual);
     }
 
     TEST(Test_envioFedEX, Test_distanciaMayor)
@@ -30,7 +30,7 @@ namespace
         double esperada = 50.00;
 
         // Assert - valide los resultados
-        EXPECT_EQ(esperada, actual);
+        EXPECT_DOUBLE_EQ(esperada, actual);
     }
 
     TEST(Test_envioFedEX, Test_pesoMayor)
@@ -45,7 +45,7 @@ namespace
         double esperada = 45.00;
 
         // Assert - valide los resultados
-        EXPECT_EQ(esperada, actual);
+        EXPECT_DOUBLE_EQ(esperada, actual);
     }
 
     TEST(Test_envioFedEX, Test_costoMaximo)
@@ -60,6 +60,6 @@ namespace
         double esperada = 60.00;
 
         // Assert - valide los resultados
-        EXPECT_EQ(esperada, actual);
+        EXPECT_DOUBLE_EQ(esperada, actual);
     }
 }
