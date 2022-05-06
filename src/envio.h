@@ -9,6 +9,7 @@ class envio
 
     public:
     virtual double calcular() = 0;
+    ~envio() {};
 };
 
 #endif
