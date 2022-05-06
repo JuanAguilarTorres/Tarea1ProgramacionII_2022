@@ -8,11 +8,13 @@ namespace
         /// AAA
 
         // Arrange - configurar el escenario
-        envioFedEX fedEx(5, 100);
+        envioFedEX* fedEx = new envioFedEX(5, 100);
 
         // Act - ejecute la operación
-        double actual = fedEx.calcular();
+        double actual = fedEx->calcular();
         double esperada = 35.00;
+        
+        delete fedEx;
 
         // Assert - valide los resultados
         EXPECT_DOUBLE_EQ(esperada, actual);
@@ -23,11 +25,13 @@ namespace
         /// AAA
 
         // Arrange - configurar el escenario
-        envioFedEX fedEx(5, 600);
+        envioFedEX* fedEx = new envioFedEX(5, 600);
 
         // Act - ejecute la operación
-        double actual = fedEx.calcular();
+        double actual = fedEx->calcular();
         double esperada = 50.00;
+        
+        delete fedEx;
 
         // Assert - valide los resultados
         EXPECT_DOUBLE_EQ(esperada, actual);
@@ -38,11 +42,13 @@ namespace
         /// AAA
 
         // Arrange - configurar el escenario
-        envioFedEX fedEx(15, 100);
+        envioFedEX* fedEx = new envioFedEX(15, 100);
 
         // Act - ejecute la operación
-        double actual = fedEx.calcular();
+        double actual = fedEx->calcular();
         double esperada = 45.00;
+        
+        delete fedEx;
 
         // Assert - valide los resultados
         EXPECT_DOUBLE_EQ(esperada, actual);
@@ -53,11 +59,13 @@ namespace
         /// AAA
 
         // Arrange - configurar el escenario
-        envioFedEX fedEx(15, 600);
+        envioFedEX* fedEx = new envioFedEX(15, 600);
 
         // Act - ejecute la operación
-        double actual = fedEx.calcular();
+        double actual = fedEx->calcular();
         double esperada = 60.00;
+        
+        delete fedEx;
 
         // Assert - valide los resultados
         EXPECT_DOUBLE_EQ(esperada, actual);

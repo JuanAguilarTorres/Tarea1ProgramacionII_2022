@@ -8,11 +8,13 @@ namespace
         /// AAA
 
         // Arrange - configurar el escenario
-        envioServicioPostalSegunda servicioPostal(3, 1);
+        envioServicioPostalSegunda* servicioPostal = new envioServicioPostalSegunda(3, 1);
 
         // Act - ejecute la operación
-        double actual = servicioPostal.calcular();
+        double actual = servicioPostal->calcular();
         double esperada = 0.0280;
+        
+        delete servicioPostal;
 
         // Assert - valide los resultados
         EXPECT_DOUBLE_EQ(esperada, actual);
@@ -23,11 +25,13 @@ namespace
         /// AAA
 
         // Arrange - configurar el escenario
-        envioServicioPostalSegunda servicioPostal(6, 1);
+        envioServicioPostalSegunda* servicioPostal = new envioServicioPostalSegunda(6, 1);
 
         // Act - ejecute la operación
-        double actual = servicioPostal.calcular();
+        double actual = servicioPostal->calcular();
         double esperada = 0.0530;
+        
+        delete servicioPostal;
 
         // Assert - valide los resultados
         EXPECT_DOUBLE_EQ(esperada, actual);
@@ -38,11 +42,13 @@ namespace
         /// AAA
 
         // Arrange - configurar el escenario
-        envioServicioPostalSegunda servicioPostal(9, 1);
+        envioServicioPostalSegunda* servicioPostal = new envioServicioPostalSegunda(9, 1);
 
         // Act - ejecute la operación
-        double actual = servicioPostal.calcular();
+        double actual = servicioPostal->calcular();
         double esperada = 0.0750;
+        
+        delete servicioPostal;
 
         // Assert - valide los resultados
         EXPECT_DOUBLE_EQ(esperada, actual);
