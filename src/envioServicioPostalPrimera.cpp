@@ -32,3 +32,7 @@ double envioServicioPostalPrimera::calcular()
     
     return 0.0;
 }
+
+envioServicioPostalPrimera::~envioServicioPostalPrimera(){
+    
+}

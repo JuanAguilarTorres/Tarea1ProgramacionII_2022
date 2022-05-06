@@ -22,3 +22,7 @@ double envioFedEX::calcular()
     
     return costoBase;
 }
+
+envioFedEX::~envioFedEX(){
+    
+}

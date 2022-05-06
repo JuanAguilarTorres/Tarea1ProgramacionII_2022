@@ -34,6 +34,7 @@ int main()
     for(envio* envio: arregloEnvios)
     {
         totalMontoEnvios += envio->calcular();
+        delete envio;
     }
 
     //Output

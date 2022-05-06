@@ -13,6 +13,7 @@ class envioFedEX : public envio
     public:
     envioFedEX(int peso, int distancia);
     virtual double calcular();
+    ~envioFedEX();
 };
 
 #endif

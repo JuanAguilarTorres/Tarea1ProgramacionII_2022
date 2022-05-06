@@ -15,6 +15,7 @@ class envioServicioPostalTercera : public envio
     public:
     envioServicioPostalTercera(int peso, int distancia);
     virtual double calcular();
+    ~envioServicioPostalTercera();
 };
 
 #endif
